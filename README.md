@@ -1,93 +1,78 @@
-# 📊 ESG Scores vs Stock Returns — India (NIFTY 100 Large-Cap)
+# 📊 ESG vs Stock Returns — India Large-Cap Analysis (2020–2025)
 
-![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![POWERBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![EXCEL](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![RESEARCH](https://img.shields.io/badge/Research-Paper-red?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Research](https://img.shields.io/badge/Research-Paper-blue?style=for-the-badge)
+![NIFTY](https://img.shields.io/badge/NIFTY-Large--Cap-green?style=for-the-badge)
 
-An end-to-end empirical research project analyzing whether ESG (Environmental, Social, Governance) scores influence stock market returns among India's top 100 large-cap companies listed on NIFTY, covering the period 2020–2025. [page:3][file:7]
+> An end-to-end quantitative research project examining whether ESG scores predict stock returns for 100 NIFTY large-cap Indian companies over 2020–2025, using Python (regression + correlation), Excel financial modelling, and Power BI dashboards.
 
 ---
 
 ## 📌 Table of Contents
 
-- [Overview](#-overview)
-- [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-- [Research Questions & Key Insights](#-research-questions--key-insights)
-- [Dataset](#-dataset)
-- [Tools & Technologies](#%EF%B8%8F-tools--technologies)
-- [Project Structure](#-project-structure)
-- [Methodology](#-methodology)
-- [Key Findings](#-key-findings)
-- [Dashboard (Power BI)](#-dashboard-power-bi)
-- [How to Run This Project](#-how-to-run-this-project)
-- [Excel Model](#-excel-model)
-- [Research Paper](#-research-paper)
-- [Dashboard View](#-dashboard-view)
-- [Author & Contact](#-author--contact)
+- • [Overview](#-overview)
+- • [Research Questions](#-research-questions)
+- • [Dataset](#-dataset)
+- • [Tools & Technologies](#%EF%B8%8F-tools--technologies)
+- • [Project Structure](#%EF%B8%8F-project-structure)
+- • [Data Sources & Methodology](#-data-sources--methodology)
+- • [Key Findings](#-key-findings)
+- • [Sector-Level Analysis](#-sector-level-analysis)
+- • [Regression Results](#-regression-results)
+- • [Dashboard Preview](#-dashboard-preview)
+- • [How to Run This Project](#-how-to-run-this-project)
+- • [Research Paper](#-research-paper)
+- • [Policy Implications](#-policy-implications)
+- • [Author & Contact](#-author--contact)
 
 ---
 
-## 📌 Overview
+## 📖 Overview
 
-This research investigates one of the most debated questions in modern sustainable finance: **Do companies with higher ESG scores generate better stock returns in the Indian market?** [file:7]
+This project investigates the relationship between corporate ESG (Environmental, Social and Governance) performance and financial returns for **100 NIFTY large-cap Indian companies** over the period **2020–2025**. The study addresses a key question in emerging-market sustainable finance: does ESG outperformance translate into stock market returns in India, or is the ESG premium — well-documented in European markets — still nascent here?
 
-Using a dataset of **100 NIFTY large-cap companies**, this project applies Pearson correlation analysis, OLS regression, sector-level comparison, and multi-period CAGR analysis to test whether ESG performance translates into superior financial performance in India. [file:4][file:7]
-
----
-
-## 📈 Exploratory Data Analysis (EDA)
-
-The exploratory analysis begins with company-level ESG scores, market-cap characteristics, and return metrics across **1-year, 3-year, 5-year, and 10-year CAGR windows**. [file:4][file:7] The sample covers **100 companies across 17 sectors**, with ESG scores ranging from **42 to 81** and a mean ESG score of **62.43**. [file:4][file:7]
-
-Initial EDA highlights that 5-year CAGR ranges from **-18% to 65%**, indicating substantial dispersion in individual stock performance. [file:7] It also shows that High-ESG firms tend to be larger and more profitable on average, which is important because those variables can confound a simple ESG-versus-return interpretation. [file:7]
+The analysis uses four holding periods (1Y, 3Y, 5Y, 10Y), Pearson correlation, OLS regression with financial controls, and sector-level breakdown across 17 industries. Results are visualised through a fully interactive **Power BI dashboard** and documented in a peer-ready **research paper**.
 
 ---
 
-## 🔍 Research Questions & Key Insights
+## 🔬 Research Questions
 
-### Research Questions
-
-1. Is there a statistically significant relationship between ESG scores and stock returns across 1Y, 3Y, 5Y, and 10Y CAGR periods? [page:3][file:7]
-2. Do High-ESG companies outperform Low-ESG companies on average across holding periods? [file:7]
-3. Does the ESG-return relationship remain significant after adding control variables such as market cap, P/E ratio, ROE, FII holding, and promoter holding? [file:7]
-4. How much do sector effects influence the ESG-return relationship in Indian large-cap stocks? [file:7]
-
-### Key Insights
-
-- High-ESG companies outperform Low-ESG companies across all four holding periods on average, with the widest gap at the **3-year horizon (+3.24 pp)**. [file:7]
-- The Pearson correlation between ESG score and 5-year CAGR is **0.179** with **p = 0.075**, which is weak and only marginally significant. [file:7]
-- Once financial controls are added, the ESG coefficient becomes statistically insignificant, suggesting the apparent premium is largely explained by **size and valuation effects** rather than independent ESG repricing. [file:7]
-- Sector heterogeneity matters a lot, because Low-ESG companies lead in sectors such as **IT, Pharma, Finance (Non-Banking), and Construction**. [file:7]
+1. **Do High-ESG companies deliver superior average stock returns** relative to Low-ESG peers across multiple holding periods?
+2. **Is there a statistically significant linear correlation** between ESG scores and CAGR at the individual company level?
+3. **Are sector effects large enough** to moderate or reverse the aggregate ESG–return relationship?
 
 ---
 
-## 📂 Dataset
+## 📁 Dataset
 
-| Attribute | Details |
-|---|---|
-| Source | ESG disclosures, NSRAL, CRISIL, SES, Screener.in [file:4][file:7] |
-| Universe | 100 NIFTY Large-Cap Companies [file:4][file:7] |
-| Period | 2020–2025 [file:7] |
-| Format | CSV (`data/ESG_DATA.csv`) [page:3][file:4] |
+- **Source:** BRSR disclosures (SEBI), NSRAL ratings, CRISIL, SES, S&P Global, Screener.in
+- **File:** `data/ESG_DATA.csv`
+- **Companies:** 100 NIFTY large-cap companies across 17 sectors
+- **ESG Score Range:** 42 to 81 (mean: 62.43, SD: 7.68)
+- **Primary Return Metric:** 5-Year CAGR (%) — proxy for 2020–2025 holding period
+- **High-ESG Group:** 51 companies (mean ESG score: 68.29)
+- **Low-ESG Group:** 49 companies (mean ESG score: 56.33)
 
 ### Key Columns
 
 | Column | Description |
 |---|---|
-| `Company` | Company name [file:4] |
-| `NSESymbol` | NSE ticker symbol [file:4] |
-| `Industry` | Industry/sector classification [file:4] |
-| `ESGScoreNumeric` | Overall ESG score (0–100) [file:4] |
-| `MarketCapCr` | Market capitalization in ₹ crore [file:4] |
-| `PERatio` | Price-to-Earnings ratio [file:4] |
-| `ROE3Y` | 3-year average Return on Equity [file:4] |
-| `FIIHolding` | Foreign Institutional Investor holding (%) [file:4] |
-| `PromoterHolding` | Promoter holding (%) [file:4] |
-| `StockCAGR1Y` | 1-Year CAGR (%) [file:4] |
-| `StockCAGR3Y` | 3-Year CAGR (%) [file:4] |
-| `StockCAGR5Y` | 5-Year CAGR (%) [file:4] |
-| `StockCAGR10Y` | 10-Year CAGR (%) [file:4] |
+| `Company` | Company name |
+| `NSESymbol` | NSE ticker symbol |
+| `Industry` | Sector classification (17 sectors) |
+| `ESGGrade` | Letter grade: A+, A, B+, B, C+ |
+| `ESGScoreNumeric` | ESG score on 0–100 scale |
+| `MarketCapCr` | Market capitalisation (₹ crore) |
+| `ROE3Y` | 3-year average Return on Equity (%) |
+| `PERatio` | Price-to-Earnings ratio |
+| `PromoterHolding` | Promoter holding (%) |
+| `FIIHolding` | Foreign Institutional Investor holding (%) |
+| `StockCAGR1Y` | 1-year CAGR (%) |
+| `StockCAGR3Y` | 3-year CAGR (%) |
+| `StockCAGR5Y` | 5-year CAGR (%) ⭐ Primary variable |
+| `StockCAGR10Y` | 10-year CAGR (%) |
 
 ---
 
@@ -95,132 +80,241 @@ Initial EDA highlights that 5-year CAGR ranges from **-18% to 65%**, indicating 
 
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data cleaning, structuring, pivot analysis [page:3] |
-| Python | Correlation analysis, regression, EDA [page:3] |
-| pandas, scipy, statsmodels | Statistical analysis libraries [page:3] |
-| matplotlib, seaborn | Visualization support [page:3] |
-| Power BI | Interactive dashboard [page:3] |
-| GitHub | Version control and portfolio presentation [page:3] |
+| **Python 3.11** | Pearson correlation, OLS regression, EDA (pandas, scipy, statsmodels) |
+| **Power BI Desktop** | Interactive multi-visual ESG dashboard |
+| **Microsoft Excel** | Financial modelling, ESG scoring framework, pivot analysis |
+| **GitHub** | Version control & research documentation |
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
-```text
+```
 esg-stock-returns-india-excel-python-powerbi-research/
 │
-├── README.md
-├── data/
-│   └── ESG_DATA.csv
-├── analysis/
-│   └── esg_analysis.py
-├── dashboard/
-│   └── ESG_Dashboard.pbix
-├── paper/
-│   └── ESG_Research_Paper_Final.pdf
-├── excel/
-│   └── ESG_vs_Returns_Analysis.xlsx
-└── assets/
-    └── screenshots/
+├── 📁 assets/                        ← Dashboard screenshots & visuals
+├── 📁 data/
+│   └── ESG_DATA.csv                  ← Full 100-company verified dataset
+├── 📁 analysis/
+│   └── esg_analysis.py               ← Python: correlation, regression, EDA
+├── 📁 dashboard/
+│   └── ESG_Dashboard.pbix            ← Power BI interactive dashboard
+├── 📁 paper/
+│   └── ESG_Research_Paper_Final.pdf  ← Full research paper (14 pages)
+├── 📁 excel/
+│   └── ESG_vs_Returns_Analysis.xlsx  ← Excel financial model & pivot tables
+└── README.md
 ```
 
-This structure is already present in your live repository, with folders for `analysis`, `assets/screenshots`, `dashboard`, `data`, `excel`, and `paper`. [page:3]
+---
+
+## 🔍 Data Sources & Methodology
+
+### ESG Score Sources (cross-referenced)
+- ✅ SEBI BRSR disclosures (SEBI Circular SEBI/LAP/GEN/2021/0000000009)
+- ✅ NSRAL (NSE Sustainability Ratings and Analytics Ltd.) — FY 2024–25
+- ✅ CRISIL ESG assessment summaries
+- ✅ Stakeholders Empowerment Services (SES) ESG ratings
+- ✅ S&P Global ESG data
+
+### Return Data
+- All CAGR figures sourced from **Screener.in** — price-adjusted returns from NSE/BSE exchange feeds, accounting for stock splits and bonus issues.
+
+### Analytical Approach
+- **Median split:** ESG score ≥ 63 = High-ESG (n=51); < 63 = Low-ESG (n=49)
+- **Pearson correlation:** `scipy.stats.pearsonr` — two-tailed p-values
+- **OLS regression:** Two models via `statsmodels` — ESG-only baseline vs. full controls (ln(Market Cap), ROE, P/E, FII Holding, Promoter Holding)
+- **Sector analysis:** Mean 5Y CAGR compared across 11 sectors with both ESG groups represented
 
 ---
 
-## 🔬 Methodology
+## 💡 Key Findings
 
-### 1. Data Collection & Cleaning
-- ESG scores were compiled from public ESG disclosure channels and cross-referenced where needed. [file:7]
-- Stock return CAGRs and financial controls were collected from Screener.in and related public company data. [file:4][file:7]
+### 📈 Group-Level Outperformance
 
-### 2. High-ESG vs Low-ESG Classification
-- Companies were split at the **median ESG score of 63**. [file:7]
-- This produced **51 High-ESG companies** and **49 Low-ESG companies**. [file:7]
+High-ESG companies outperformed Low-ESG companies **across all four holding periods**:
 
-### 3. Statistical Analysis
-- Pearson correlation was used to test ESG score versus all CAGR windows. [file:7]
-- OLS regression tested whether ESG score predicts 5-year CAGR before and after controls. [file:7]
-- Sector-wise comparison measured whether the ESG premium is uniform across industries. [file:7]
-
----
-
-## 📊 Key Findings
-
-| Holding Period | High-ESG CAGR | Low-ESG CAGR | Outperformance |
+| Holding Period | High-ESG CAGR (%) | Low-ESG CAGR (%) | Difference (pp) |
 |---|---|---|---|
-| 1-Year | 13.94% [file:7] | 12.63% [file:7] | +1.31 pp [file:7] |
-| 3-Year | 12.63% [file:7] | 9.39% [file:7] | **+3.24 pp** [file:7] |
-| 5-Year | 13.80% [file:7] | 10.94% [file:7] | +2.87 pp [file:7] |
-| 10-Year | 13.69% [file:7] | 13.37% [file:7] | +0.32 pp [file:7] |
+| 1-Year | 13.94 | 12.63 | +1.31 |
+| **3-Year** | **12.63** | **9.39** | **+3.24 ↑ Widest gap** |
+| 5-Year ⭐ | 13.80 | 10.94 | +2.87 |
+| 10-Year | 13.69 | 13.37 | +0.32 |
 
-### Correlation Results
+### 📉 Pearson Correlation (ESG Score vs. 5Y CAGR)
 
-| Metric | Pearson r | p-value | Interpretation |
-|---|---|---|---|
-| ESG vs 1Y CAGR | 0.006 [file:7] | 0.954 [file:7] | Negligible [file:7] |
-| ESG vs 3Y CAGR | 0.154 [file:7] | 0.127 [file:7] | Weak positive [file:7] |
-| ESG vs 5Y CAGR | **0.179** [file:7] | **0.075** [file:7] | Weak positive, 10% only [file:7] |
-| ESG vs 10Y CAGR | 0.132 [file:7] | 0.191 [file:7] | Weak positive [file:7] |
+| Metric | Value |
+|---|---|
+| Pearson r | 0.179 |
+| p-value | 0.075† |
+| R² | 0.032 |
+| Interpretation | Weak positive — significant at 10% only |
+
+> ⚠️ ESG scores explain only **3.2% of the variation** in 5-year individual company returns. The group-level premium does not reflect a strong linear ESG–return relationship.
+
+### 🔑 KPI Summary
+
+| KPI | Value |
+|---|---|
+| Companies Analysed | 100 |
+| ESG Premium (5Y CAGR avg) | +2.90 pp |
+| High ESG Sector Wins | 7/11 |
+| Pearson r (ESG vs 5Y) | 0.18 |
+| p-value | 0.075 (Weak) |
+| Top High-ESG Performer | Adani Green Energy — 65% CAGR |
+| Top Low-ESG Performer | Trent Ltd — 55% CAGR |
 
 ---
 
-## 📈 Dashboard (Power BI)
+## 🏭 Sector-Level Analysis
 
-The Power BI dashboard section should present the main project visuals, including KPI cards, a holding-period comparison, ESG-vs-return scatter, sector breakdown, and top performers by ESG group. [file:6][file:7] Your current screenshot already shows KPI cards such as **Companies Analysed = 100**, **ESG Premium (5Y CAGR) = 2.90**, **High ESG Sector Wins = 7/11**, and **Pearson r = 0.18**. [file:6]
+The aggregate ESG advantage is **not uniform across sectors**. Low-ESG companies lead in 4 of 11 sectors:
 
-You can keep this section near the middle for feature explanation, and then add a dedicated demo-style visual section at the end for display. [page:3][file:6]
+| Sector | High-ESG 5Y CAGR (%) | n | Low-ESG 5Y CAGR (%) | n | Leader |
+|---|---|---|---|---|---|
+| Automobile | 16.4 | 5 | 8.8 | 4 | **High ESG** |
+| Banks | 10.4 | 5 | −5.3 | 3 | **High ESG** |
+| Cement | 15.5 | 2 | 10.7 | 3 | **High ESG** |
+| Construction | 15.0 | 1 | 28.0 | 1 | **Low ESG** |
+| Consumer Goods | 12.2 | 14 | 11.4 | 9 | **High ESG** |
+| Finance: Non-Banking | 8.2 | 4 | 10.4 | 5 | **Low ESG** |
+| IT | 10.1 | 7 | 19.0 | 1 | **Low ESG** |
+| Metals & Mining | 15.2 | 4 | 11.5 | 2 | **High ESG** |
+| Pharma | 6.8 | 4 | 11.0 | 11 | **Low ESG** |
+| Power† | 65.0 | 1 | 35.0 | 1 | **High ESG** |
+| Telecom | 25.0 | 1 | −2.0 | 1 | **High ESG** |
+
+> † Power sector High-ESG figure driven by Adani Green Energy Ltd. (5Y CAGR 65%). Reflects idiosyncratic firm performance, not a sector-wide ESG premium.
 
 ---
 
-## ▶️ How to Run This Project
+## 📐 Regression Results
 
+Two OLS models estimated with **5-Year CAGR** as the dependent variable:
+
+| Variable | Model 1 (ESG Only) | Model 2 (Full Controls) |
+|---|---|---|
+| ESG Score | 0.267† (p=0.075) | 0.061 (p=0.664) — **insignificant** |
+| ln(Market Cap) | — | **4.200*** (p<0.001) |
+| P/E Ratio | — | **0.222*** (p<0.001) |
+| ROE 3Y avg (%) | — | 0.006 (p=0.905) |
+| FII Holding (%) | — | 0.032 (p=0.828) |
+| Promoter Holding (%) | — | 0.067 (p=0.402) |
+| **R²** | **0.032** | **0.372** |
+| **Adj. R²** | **0.022** | **0.331** |
+| **F-stat** | 3.19 (p=0.075) | **9.16 (p<0.001)** |
+
+> **Critical finding:** Once market cap and P/E controls are added, the ESG coefficient becomes statistically zero (p=0.664). The group-level ESG premium is confounded by **firm size and valuation** — not independent ESG investor repricing.
+
+---
+
+## 📊 Dashboard Preview
+
+**Power BI Dashboard — ESG vs Returns India Large-Cap**
+
+![ESG Dashboard](assets/ESG_Dashboard_Screenshot.png)
+
+The interactive dashboard covers:
+- 📌 KPI cards: Companies analysed, ESG Premium (5Y CAGR), High ESG Sector Wins, Pearson r
+- 📊 Average return by holding period — High vs Low ESG bar chart
+- 🔵 ESG score vs 5-year return scatter plot (r = 0.18, p = 0.075)
+- 🏭 Sector breakdown — 5Y CAGR High vs Low ESG
+- 🏆 Top 10 performers per group (5Y CAGR %)
+
+---
+
+## 🚀 How to Run This Project
+
+### Prerequisites
+
+- [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+- Python 3.11+ with: `pandas`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`
+- Microsoft Excel or any CSV viewer
+- Git (optional, for cloning)
+
+### Steps
+
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/AkarshKumarM05/esg-stock-returns-india-excel-python-powerbi-research.git
-cd esg-stock-returns-india-excel-python-powerbi-research
-pip install pandas numpy scipy statsmodels matplotlib seaborn openpyxl
-python analysis/esg_analysis.py
 ```
 
-This project already contains an `analysis/esg_analysis.py` script in the repository, and the repository page shows the analysis folder live on `main`. [page:3] The script is intended to read `data/ESG_DATA.csv`, compute descriptive statistics, run correlations and OLS regressions, and generate visuals for the project. [page:3][file:4][file:7]
+**2. Navigate to the project folder:**
+```bash
+cd esg-stock-returns-india-excel-python-powerbi-research
+```
 
----
+**3. Install Python dependencies:**
+```bash
+pip install pandas scipy statsmodels matplotlib seaborn openpyxl
+```
 
-## 📋 Excel Model
+**4. Run the Python analysis:**
+```bash
+cd analysis
+python esg_analysis.py
+```
+This will output:
+- Descriptive statistics for all 100 companies
+- Pearson correlation table (all 4 holding periods)
+- OLS regression results (Model 1 and Model 2)
+- Sector-level CAGR comparison
 
-The Excel workbook belongs in `excel/ESG_vs_Returns_Analysis.xlsx`, which matches the project structure you wanted for this repo. [page:3] Your attached workbook can later support raw data checks, pivot tables, sector summaries, and presentation tables for the GitHub project. [file:5]
+**5. Open the Excel model:**
+- Navigate to `excel/ESG_vs_Returns_Analysis.xlsx`
+- Contains pivot tables, ESG scoring framework, and financial summary tabs
+
+**6. Open the Power BI Dashboard:**
+- Open `dashboard/ESG_Dashboard.pbix` in **Power BI Desktop**
+- If prompted, update the data source path to point to `data/ESG_DATA.csv` on your local machine
+- Go to **Home → Refresh** to load the latest data
+
+**7. Read the full research paper:**
+- Open `paper/ESG_Research_Paper_Final.pdf` for the complete 14-page academic write-up
 
 ---
 
 ## 📄 Research Paper
 
-The full paper is intended for `paper/ESG_Research_Paper_Final.pdf`, and your attached PDF contains the 14-page write-up titled *Do ESG Scores Predict Stock Returns? Evidence from Indian Large-Cap Companies (2020–2025)*. [page:3][file:7] It includes the abstract, literature review, methodology, findings, regression analysis, policy implications, limitations, and references. [file:7]
+**Title:** *Do ESG Scores Predict Stock Returns? Evidence from Indian Large-Cap Companies (2020–2025)*
+
+**Author:** Akarsh Kumar Pandey, B.Com (Hons), University of Lucknow
+
+**Abstract Summary:** High-ESG companies outperformed Low-ESG peers across all four holding periods, with the widest gap at the 3-year horizon (+3.24 pp). However, the Pearson correlation between ESG score and 5-year CAGR is weak (r = 0.179, p = 0.075), and once size and valuation controls are added via OLS regression, the ESG coefficient becomes statistically insignificant. The ESG premium in India appears nascent and largely confounded by firm size — contrasting with European markets where SFDR-mandated capital flows create structural demand for high-ESG securities.
+
+**Keywords:** ESG scores, stock returns, India, large-cap, Pearson correlation, NIFTY, sustainable finance, SEBI BRSR
+
+**Related Work:** [Bridging the Impact Gap — Sustainable Finance for Indian SMEs (SSRN #6603859)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6603859)
 
 ---
 
-## 🖼️ Dashboard View
+## 🏛️ Policy Implications
 
-Add this section at the **end of the README** so it works like a demo showcase area, similar to how portfolio repos often present visuals after the technical explanation. [page:3] For now, you can use a placeholder like this and replace it later when you add the final image file: [file:6]
+**For SEBI & Indian Regulators:**
+- Strengthen and expand the BRSR framework — align with ISSB (IFRS S1/S2) and GRI Standards
+- Consider an Indian ESG fund classification framework analogous to EU SFDR to build the institutional demand channel
 
-```md
-## 🖼️ Dashboard View
+**For Institutional Investors:**
+- Avoid sector-agnostic ESG screening — sector heterogeneity is substantial
+- Governance quality (the "G" in ESG) may be the primary performance channel in India
 
-![ESG Dashboard Preview](assets/screenshots/esg-dashboard-preview.png)
-
-> Interactive Power BI dashboard showing ESG premium, holding-period returns, sector comparison, correlation, and top performers.
-```
-
-Since your repo already has an `assets/screenshots` folder, this is the best place to store the future dashboard image you want to demonstrate at the end. [page:3]
+**For Researchers:**
+- Use multivariate panel regression with sector fixed effects to isolate marginal ESG effects
+- Track ESG–return relationship longitudinally as BRSR matures and ESG fund products expand
 
 ---
 
-## 👤 Author & Contact
+## 👨‍💻 Author & Contact
 
 **Akarsh Kumar Pandey**  
-Bachelor of Commerce (Honours) — University of Lucknow [page:3]
+B.Com (Hons) | University of Lucknow | Data Analytics & Sustainable Finance
 
-- GitHub: [AkarshKumarM05](https://github.com/AkarshKumarM05) [page:3]
-- LinkedIn: Add your current profile link here.
-- Email: Add your preferred contact email here.
+[![Email](https://img.shields.io/badge/Email-tulnama02%40gmail.com-red?style=flat-square&logo=gmail)](mailto:tulnama02@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-akarshkpandey-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/akarshkpandey)
+[![GitHub](https://img.shields.io/badge/GitHub-AkarshKumarM05-black?style=flat-square&logo=github)](https://github.com/AkarshKumarM05)
+[![SSRN](https://img.shields.io/badge/SSRN-Research%20Papers-orange?style=flat-square)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7659436)
 
+---
+
+> ⭐ If you found this project useful, please give it a star — it helps a lot!
 
