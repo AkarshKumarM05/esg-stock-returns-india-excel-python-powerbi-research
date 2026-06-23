@@ -1,2 +1,101 @@
-Company,Ticker,Sector,ESG_Score,Environmental_Score,Social_Score,Governance_Score,CAGR_1Y,CAGR_3Y,CAGR_5Y,CAGR_10Y,Market_Cap_Cr,PE_Ratio,Beta
-# Upload your ESG_DATA.csv file here. This is a placeholder header.
+Rank,Company,NSE_Symbol,Industry,ESG_Grade,ESG_Score_Numeric,Market_Cap_Cr,ROE_3Y_%,PE_Ratio,Promoter_Holding_%,FII_Holding_%,Stock_CAGR_1Y_%,Stock_CAGR_3Y_%,Stock_CAGR_5Y_%,Stock_CAGR_10Y_%,Data_Status,Screener_URL
+1,Cipla Ltd.,CIPLA,Pharma,A+,81,108906,15.6,28.4,33.4,25.8,24,18,16,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/CIPLA/consolidated/
+2,Wipro Ltd.,WIPRO,IT,A+,79,193728,18.2,21.4,72.9,6.5,-12,-4,5,6,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/WIPRO/consolidated/
+3,Hindustan Unilever Ltd.,HINDUNILVR,Consumer Goods,A+,78,542996,23.91,33.83,61.9,14.2,-8,2,5,15,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HINDUNILVR/consolidated/
+4,Infosys Ltd.,INFY,IT,A+,78,469871,30.82,15.56,14.85,33.12,-16,0,-1,7,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/INFY/consolidated/
+5,Tata Consultancy Services Ltd.,TCS,IT,A+,77,804156,46.3,28.5,72.4,12.5,6,11,14,15,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TCS/consolidated/
+6,Mahindra & Mahindra Ltd.,M&M,Automobile,A+,76,388199,16.5,28.5,18.23,40.5,45,35,22,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/M&M/consolidated/
+7,Tech Mahindra Ltd.,TECHM,IT,A+,75,142893,14.2,32.1,35.1,26.3,10,8,11,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TECHM/consolidated/
+8,HCL Technologies Ltd.,HCLTECH,IT,A,74,316440,22.4,18.5,60.8,18.9,8,9,12,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HCLTECH/consolidated/
+9,ITC Ltd.,ITC,Consumer Goods,A,73,364294,29.1,24.8,0,43.1,12,28,11,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ITC/consolidated/
+10,Tata Steel Ltd.,TATASTEEL,Metals & Mining,A,72,248422,11.5,14.5,33.9,20.1,10,12,18,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TATASTEEL/consolidated/
+11,Larsen & Toubro Infotech Ltd.,LTI,IT,A,72,133381,26.4,34.2,68.6,13.1,-2,15,18,22,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/LTIM/consolidated/
+12,Tata Consumer Products Ltd,TATACONSUM,Consumer Goods,A,72,111197,8.5,68,33.5,25.3,18,12,24,18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TATACONSUM/consolidated/
+13,Tata Motors Ltd.,TATAMOTORS,Automobile,A,71,144830,12.4,16.5,46.4,18.2,75,45,28,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TMPV/consolidated/
+14,Godrej Consumer Products Ltd.,GODREJCP,Consumer Goods,A,71,104292,19.4,54.2,63.2,23.5,15,10,12,15,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/GODREJCP/consolidated/
+15,Siemens Ltd.,SIEMENS,Industrial Manufacturing,A,70,119528,15.4,65.4,75,10.4,45,32,28,20,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/SIEMENS/consolidated/
+16,Marico Ltd.,MARICO,Consumer Goods,A,70,104598,35.2,48.3,59.4,25.1,5,7,9,13,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MARICO/consolidated/
+17,Larsen & Toubro Ltd.,LT,Construction,B+,69,578632,14.1,34.2,0,25.1,28,22,15,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/LT/consolidated/
+18,Nestle India Ltd.,NESTLEIND,Consumer Goods,B+,69,270572,84.1,75.4,62.8,12.1,8,14,15,19,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/NESTLEIND/consolidated/
+19,Honeywell Automation India Ltd,HONAUT,Industrial Manufacturing,B+,69,33302,15.4,62.4,75,6.2,-5,2,8,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HONAUT/consolidated/
+20,HDFC Bank Ltd.,HDFCBANK,Banks,B+,68,1534447,15.42,15.98,0,47.2,-17,-1,3,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HDFCBANK/consolidated/
+21,Housing Development Finance Corporation Ltd.,HDFC,Finance: Non-Banking,B+,68,504384,13.5,18.2,0,68.2,-5,3,8,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HDFC/consolidated/
+22,Asian Paints Ltd.,ASIANPAINT,Consumer Goods,B+,68,262466,27.5,52.4,52.6,17.5,-8,5,12,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ASIANPAINT/consolidated/
+23,Dr. Reddy's Laboratories Ltd.,DRREDDY,Pharma,B+,68,105907,18.4,17.8,26.7,27.2,12,14,11,10,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/DRREDDY/consolidated/
+24,Dabur India Ltd.,DABUR,Consumer Goods,B+,68,76059,21.2,44.5,66.2,19.5,2,4,8,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/DABUR/consolidated/
+25,ICICI Bank Ltd.,ICICIBANK,Banks,B+,67,1012624,17.43,17.61,0,45.1,14,18,20,19,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ICICIBANK/consolidated/
+26,Hindustan Zinc Ltd.,HZL,Metals & Mining,B+,67,238667,32.4,18.5,64.9,0.8,5,4,6,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HINDZINC/consolidated/
+27,ABB India Ltd,ABB,Industrial Manufacturing,B+,67,99695,19.5,85,75,8.4,80,45,35,22,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ABB/consolidated/
+28,Colgate Palmolive (India) Ltd.,COLPAL,Consumer Goods,B+,67,64490,108,41.98,51,21.5,18,15,12,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/COLPAL/consolidated/
+29,JSW Steel Ltd.,JSWSTEEL,Metals & Mining,B+,66,252534,13.5,18.4,45.3,25.1,12,16,18,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/JSWSTEEL/consolidated/
+30,Grasim Industries Ltd.,GRASIM,Cement,B+,66,182489,9.5,28.5,42.8,12.4,12,14,15,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/GRASIM/consolidated/
+31,Adani Green Energy Ltd.,ADANIGREEN,Power,B+,66,164078,11.2,145,56.3,15.4,15,22,65,45,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ADANIGREEN/consolidated/
+32,Hero MotoCorp Ltd.,HEROMOTOCO,Automobile,B+,66,100487,18.5,22.4,34.8,27.5,15,5,4,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HEROMOTOCO/consolidated/
+33,Procter & Gamble Hygiene & Health Care Ltd.,PGHH,Consumer Goods,B+,66,41917,157.48,34.2,70.6,2.5,12,8,10,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/PGHH/consolidated/
+34,Titan Company Ltd.,TITAN,Consumer Goods,B+,65,389232,25.8,75.4,52.9,18.4,14,22,24,28,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TITAN/consolidated/
+35,Axis Bank Ltd.,AXISBANK,Banks,B+,65,378467,16.2,14.1,8.2,48.5,18,22,16,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/AXISBANK/consolidated/
+36,Bosch Ltd.,BOSCHLTD,Automobile,B+,65,125725,14.2,35.8,70.5,8.1,18,15,10,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BOSCHLTD/consolidated/
+37,Kansai Nerolac Paints Ltd,KANSAINER,Consumer Goods,B+,65,17066,13.2,38.4,75,3.4,-4,-2,5,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/KANSAINER/consolidated/
+38,Bharti Airtel Ltd.,BHARTIARTL,Telecom,B,64,1098646,20.44,39.22,54.8,24.3,28,22,25,18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BHARTIARTL/consolidated/
+39,Kotak Mahindra Bank Ltd.,KOTAKBANK,Banks,B,64,395119,14.1,18.2,25.9,38.5,-8,2,8,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/KOTAKBANK/consolidated/
+40,Hindalco Industries Ltd.,HINDALCO,Metals & Mining,B,64,226745,12.8,11.2,34.6,26.2,8,15,19,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HINDALCO/consolidated/
+41,HDFC Life Insurance Co. Ltd.,HDFCLIFE,Finance: Non-Banking,B,64,167223,12.2,84.1,50.4,25.8,-2,4,6,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HDFCLIFE/consolidated/
+42,ICICI Lombard General Insurance Company Ltd.,ICICIGI,Finance: Non-Banking,B,64,89766,15.4,42.1,48,24.5,14,8,10,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ICICIGI/consolidated/
+43,Biocon Ltd.,BIOCON,Pharma,B,64,66724,6.2,38.5,60.6,15.4,-5,-8,-2,8,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BIOCON/consolidated/
+44,Pfizer Ltd,PFIZER,Pharma,B,64,22130,16.8,32.4,63.9,11.2,5,-2,2,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/PFIZER/consolidated/
+45,UltraTech Cement Ltd.,ULTRACEMCO,Cement,B,63,335031,12.1,42.1,60,15.8,15,10,16,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ULTRACEMCO/consolidated/
+46,Bajaj Auto Ltd.,BAJAJ-AUTO,Automobile,B,63,239695,24.5,28.2,54.9,12.4,45,25,18,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BAJAJ-AUTO/consolidated/
+47,Britannia Industries Ltd.,BRITANNIA,Consumer Goods,B,63,139314,54.2,52.4,50.6,18.2,12,10,14,18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BRITANNIA/consolidated/
+48,HDFC Asset Management Company Ltd.,HDFCAMC,Finance: Non-Banking,B,63,115091,28.5,35.2,62.6,14.5,16,8,9,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HDFCAMC/consolidated/
+49,Oracle Financial Services Software Ltd,OFSS,IT,B,63,77180,26.5,24.1,72.8,10.4,85,20,12,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/OFSS/consolidated/
+50,IndusInd Bank Ltd.,INDUSINDBK,Banks,B,63,60590,14.5,13.2,16.5,38.4,8,15,5,6,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/INDUSINDBK/consolidated/
+51,Gillette India Ltd,GILLETTE,Consumer Goods,B,63,30234,90.62,39.19,75,1.5,11,8,10,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/GILLETTE/consolidated/
+52,Bajaj Finance Ltd.,BAJFINANCE,Finance: Non-Banking,B,62,573430,19.54,31.04,54.7,20.1,-2,12,18,24,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BAJFINANCE/consolidated/
+53,Eicher Motors Ltd.,EICHERMOT,Automobile,B,62,205983,21.4,28.2,49.2,29.1,18,16,11,18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/EICHERMOT/consolidated/
+54,Pidilite Industries Ltd.,PIDILITIND,Chemicals,B,62,148303,20.5,68.4,69.8,11.2,8,10,15,20,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/PIDILITIND/consolidated/
+55,ICICI Prudential Life Insurance Company Ltd.,ICICIPRULI,Finance: Non-Banking,B,62,86496,9.5,82,73.4,15.2,5,-2,-1,4,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ICICIPRULI/consolidated/
+56,Havells India Ltd.,HAVELLS,Consumer Goods,B,62,74979,19.5,68.3,59.4,23.1,12,11,18,21,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/HAVELLS/consolidated/
+57,UPL Ltd.,UPL,Fertilisers & Pesticides,B,62,43020,12.8,14.5,32.4,35.2,-18,-10,2,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/UPL/consolidated/
+58,Adani Ports and Special Economic Zone Ltd.,ADANIPORTS,Services,B,61,421291,15.1,31.4,65.5,17.2,38,24,21,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ADANIPORTS/consolidated/
+59,Bajaj Finserv Ltd.,BAJAJFINSV,Finance: Non-Banking,B,61,317475,14.5,32.4,60.7,7.4,-5,8,12,18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BAJAJFINSV/consolidated/
+60,Trent Ltd,TRENT,Consumer Goods,B,61,181436,14.2,110.2,37,26.8,110,85,55,35,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TRENT/consolidated/
+61,Adani Transmission Ltd,ADANITRANS,Power,B,61,178799,13.8,45,72.5,20.4,-25,15,35,28,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ADANIENSOL/consolidated/
+62,United Spirits Ltd.,MCDOWELL-N,Consumer Goods,B,61,110789,16.4,52.1,56.8,18.2,14,12,15,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MCDOWELL-N/consolidated/
+63,GlaxoSmithKline Pharmaceuticals Ltd,GLAXO,Pharma,B,61,40280,61.41,38.26,70.5,1.1,12,8,10,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/GLAXO/consolidated/
+64,Shree Cement Ltd.,SHREECEM,Cement,B,60,90400,10.8,42.1,62.6,12.4,4,5,8,15,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/SHREECEM/consolidated/
+65,Berger Paints India Ltd.,BERGEPAINT,Consumer Goods,B,60,69404,24.2,54.1,75,11.2,-4,2,11,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BERGEPAINT/consolidated/
+66,3M India Ltd,3MINDIA,Metals & Mining,B,60,40459,22.4,62.4,75,6.2,12,8,11,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/3MINDIA/consolidated/
+67,Maruti Suzuki India Ltd.,MARUTI,Automobile,C+,59,428578,14.2,26.8,56.4,21.8,18,12,8,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MARUTI/consolidated/
+68,Indus Tower Ltd.,INDUSTOWER,Telecom,C+,59,93062,14.2,18.4,69,20.4,45,12,-2,5,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/INDUSTOWER/consolidated/
+69,Jubilant Foodworks Ltd,JUBLFOOD,Consumer Goods,C+,59,39667,18.2,75.4,41.9,25.4,-12,-8,4,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/JUBLFOOD/consolidated/
+70,Motherson Sumi Systems Ltd,MOTHERSUMI,Automobile,C+,58,153250,11.4,24.2,61.8,11.2,8,5,6,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MOTHERSON/consolidated/
+71,Torrent Pharmaceuticals Ltd.,TORNTPHARM,Pharma,C+,58,119301,19.4,38.5,71.2,11.5,22,18,15,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/TORNTPHARM/consolidated/
+72,Info Edge (India) Ltd.,NAUKRI,IT,C+,58,65948,11.2,85,38.1,31.4,22,5,19,24,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/NAUKRI/consolidated/
+73,Abbott India Ltd.,ABBOTINDIA,Pharma,C+,58,56303,28.4,44.5,75,4.1,15,18,22,26,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ABBOTINDIA/consolidated/
+74,Piramal Enterprises Ltd.,PEL,Pharma,C+,58,25483,4.2,14.2,46.1,28.5,-15,-20,-12,-2,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/PEL/consolidated/
+75,Whirlpool of India Ltd,WHIRLPOOL,Consumer Goods,C+,58,15962,11.4,58.2,75,3.5,-6,-12,-4,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/WHIRLPOOL/consolidated/
+76,Sun Pharmaceutical Industries Ltd.,SUNPHARMA,Pharma,C+,57,397820,16.49,34.7,54.5,16.8,35,18,16,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/SUNPHARMA/consolidated/
+77,United Breweries Ltd.,UBL,Consumer Goods,C+,57,50452,11.4,78.4,72.7,9.4,8,6,10,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/UBL/consolidated/
+78,PI Industries Ltd,PIIND,Fertilisers & Pesticides,C+,57,42955,21.5,38.2,46.1,19.2,12,24,28,32,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/PIIND/consolidated/
+79,ACC Ltd,ACC,Cement,C+,57,25369,11.2,24.5,56.7,10.2,8,6,8,7,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ACC/consolidated/
+80,Cadila Healthcare Ltd.,CADILAHC,Pharma,C+,56,107063,13.5,24.2,74.9,5.2,28,12,14,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ZYDUSLIFE/consolidated/
+81,Ambuja Cements Ltd.,AMBUJACEM,Cement,C+,56,105965,9.2,36.8,63.2,11.4,21,18,16,10,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/AMBUJACEM/consolidated/
+82,Lupin Ltd.,LUPIN,Pharma,C+,56,86231,10.4,35.2,47.1,14.5,38,8,2,4,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/LUPIN/consolidated/
+83,Indraprastha Gas Ltd.,IGL,Oil & Gas,C+,56,14204,19.4,18.2,45,20.4,-4,2,6,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/IGL/consolidated/
+84,Reliance Industries Ltd.,RELIANCE,Oil & Gas,C+,55,1910389,8.91,22.7,50,18.67,-4,6,8,20,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/RELIANCE/consolidated/
+85,Divi's Laboratories Ltd.,DIVISLAB,Pharma,C+,55,166105,16.5,52.4,51.9,15.2,-2,4,18,21,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/DIVISLAB/consolidated/
+86,Bajaj Holdings & Investment Ltd,BAJAJHLDNG,Finance: Non-Banking,C+,55,163335,14.2,15.4,51.2,12.4,18,15,12,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BAJAJHLDNG/consolidated/
+87,Alkem Laboratories Ltd.,ALKEM,Pharma,C+,54,55953,16.4,31.4,57.1,9.2,14,12,16,13,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/ALKEM/consolidated/
+88,Aurobindo Pharma Ltd.,AUROPHARMA,Pharma,C+,53,64965,11.4,18.5,51.8,21.4,32,10,12,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/AUROPHARMA/consolidated/
+89,Page Industries Ltd,PAGEIND,Textiles,C+,52,42335,51.2,55.4,46.1,21.3,-10,8,12,24,VERIFIED REAL DATA from StockAnalysis.com (Screener unavailable),https://stockanalysis.com/quote/nse/PAGEIND/market-cap/
+90,Bandhan Bank Ltd.,BANDHANBNK,Banks,C+,52,25245,11.4,12.5,40,28.5,-18,-12,-15,-2,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/BANDHANBNK/consolidated/
+91,DLF Ltd.,DLF,Construction,C+,51,212840,8.5,54.1,74.1,15.2,65,35,28,12,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/DLF/consolidated/
+92,Vedanta Ltd,VEDL,Metals & Mining,C+,51,174553,22.4,12.4,63.7,8.5,35,10,12,9,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/VEDL/consolidated/
+93,Muthoot Finance Ltd.,MUTHOOTFIN,Finance: Non-Banking,C+,51,95812,18.5,12.4,73.4,9.2,14,4,11,15,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MUTHOOTFIN/consolidated/
+94,Yes Bank Ltd,YESBANK,Banks,C+,51,62753,2.4,55,0,12.4,15,8,-15,-18,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/YESBANK/consolidated/
+95,Avenue Supermarts Ltd.,DMART,Consumer Goods,C+,50,276986,14.8,105.4,74.7,8.4,15,8,12,22,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/DMART/consolidated/
+96,IPCA Laboratories Ltd,IPCALAB,Pharma,C+,50,37236,12.4,38.4,46.3,10.4,8,-2,8,14,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/IPCALAB/consolidated/
+97,MRF Ltd,MRF,Automobile,C+,49,59535,10.2,28.5,27.8,18.4,15,12,10,16,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/MRF/consolidated/
+98,InterGlobe Aviation Ltd.,INDIGO,Services,C+,48,228941,15.2,18.4,38.2,24.5,55,24,14,11,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/INDIGO/consolidated/
+99,IDBI Bank Ltd,IDBI,Banks,C+,46,100771,13.6,8.46,94.72,0.46,-10,15,14,0,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/IDBI/consolidated/
+100,Rajesh Exports Ltd,RAJESHEXPO,Consumer Goods,C+,42,4747,6.5,11.4,54.1,15.2,-45,-25,-18,-4,VERIFIED REAL DATA from screener.in,https://www.screener.in/company/RAJESHEXPO/consolidated/
