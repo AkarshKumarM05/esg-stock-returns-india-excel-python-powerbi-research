@@ -307,14 +307,15 @@ This will output:
 ## 👨‍💻 Author & Contact
 
 **Akarsh Kumar Pandey**  
-B.Com (Hons) | University of Lucknow | Data Analytics & Sustainable Finance
+B.Com (Hons) | Data Analytics Enthusiast
 
-[![Email](https://img.shields.io/badge/Email-tulnama02%40gmail.com-red?style=flat-square&logo=gmail)](mailto:tulnama02@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-akarshkpandey-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/akarshkpandey)
-[![GitHub](https://img.shields.io/badge/GitHub-AkarshKumarM05-black?style=flat-square&logo=github)](https://github.com/AkarshKumarM05)
-[![SSRN](https://img.shields.io/badge/SSRN-Research%20Papers-orange?style=flat-square)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7659436)
-
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tulnama02@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akarshkpandey)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AkarshKumarM05)
 ---
+
+> ⭐ If you found this project useful, please give it a star — it helps a lot!
+
 
 > ⭐ If you found this project useful, please give it a star — it helps a lot!
 
