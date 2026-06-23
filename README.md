@@ -212,7 +212,7 @@ Two OLS models estimated with **5-Year CAGR** as the dependent variable:
 
 **Power BI Dashboard — ESG vs Returns India Large-Cap**
 
-![ESG Dashboard](assets/ESG_Dashboard_Screenshot.png)
+![ESG Dashboard](assets/Screenshot%202026-06-20%20021321.png))
 
 The interactive dashboard covers:
 - 📌 KPI cards: Companies analysed, ESG Premium (5Y CAGR), High ESG Sector Wins, Pearson r
